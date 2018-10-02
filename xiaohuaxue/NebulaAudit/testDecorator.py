@@ -1,5 +1,6 @@
 import datetime
 def decorator(fn):
+
     def wrap(*args,**kwargs):  #包装函数
         #before
         print("args={},kwargs={}".format(args,kwargs))
@@ -13,6 +14,7 @@ def decorator(fn):
         else:
             print("So fast")
         return ret
+
     return wrap
 
 @decorator # 这个格式等价于 下面的函数全部应用decorator装饰器包装，如：add = decorator(add)
