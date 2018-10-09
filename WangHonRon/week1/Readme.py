@@ -2,8 +2,8 @@
 # 20181008
 # BruWon
 # github learn
-# 0. got clone url
+# 0. git clone url
 # 1. git add .
-# 2. git commit -m ''
+# 2. git commit -m 'executed description'
 # 3. git push origin master
 # 4. git pull
