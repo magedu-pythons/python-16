@@ -1,0 +1,75 @@
+/* CSS Document */
+
+/*#divhead2
+	{
+		background-color:#373D41;
+		position: relative;
+		float:left;
+		height: 40px;
+		width:1850px;
+	}*/
+	#divleft1
+	{
+		background-color:#333744;
+		position: relative;
+		float:left;
+		height: 866px;
+		width:160px;
+	}
+
+	#divdata
+	{
+		background-color:white;
+		position: relative;
+		float:right;
+		height: 866px;
+		width:1686px;
+	}
+
+	
+	header
+	{
+
+		background-color:#373D41;
+		margin-top: 0px;
+		margin-lef: 0px;
+		height: 50px;
+		width:1850px;
+	}
+	nav
+	{
+		position: relative;
+		top:-10px;
+		margin-left: 81px;
+		margi-top:0px;
+		list-style: none;
+	}
+	nav ul h1
+	{
+
+		font-family: "Microsoft YaHei";
+		font-size: 14px;
+		color: #FFFFFF;
+		
+	}
+    nav ul img
+	{
+		position: relative;
+		top:15px;
+	}
+	nav ul li
+	{
+
+	display:inline-block;
+	line-height:14px;
+	}
+	nav ul li button
+	{
+
+	height:50px;
+	width: 50px;
+	background-color: #373D41;
+	color: #FFFFFF;
+	border: #373D41;
+	line-height: 14px;
+	}
