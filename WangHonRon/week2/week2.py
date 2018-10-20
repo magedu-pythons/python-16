@@ -1,4 +1,4 @@
-#作业2、打印出100以内的斐波那契数列，使用2种方法实现
+﻿#作业2、打印出100以内的斐波那契数列，使用2种方法实现
 #100以内斐波那契数列
 n=100
 #方法一： 
@@ -7,8 +7,8 @@ f1 = 1
 print(f0,f1,sep='\n')
 for i in range(1,n):
 	fn=f0+f1
-	print(fn)
 	if fn > 100: break
+	print(fn)
 	f0 = f1
 	f1 = fn
 #方法二： 
@@ -17,8 +17,8 @@ f3 = 1
 print(f2,f3,sep='\n')
 while True:
     fm = f2 + f3
-    print(fm)
     if fm > n: break
+	print(fm)
     f2 = f3
     f3 = fm   
 	
