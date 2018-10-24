@@ -1,26 +1,48 @@
-﻿#作业2、打印出100以内的斐波那契数列，使用2种方法实现
-#100以内斐波那契数列
-n=100
-#方法一： 
-f0 = 1
-f1 = 1
-print(f0,f1,sep='\n')
-for i in range(1,n):
-	fn=f0+f1
-	if fn > 100: break
-	print(fn)
-	f0 = f1
-	f1 = fn
-#方法二： 
-f2 = 1
-f3 = 1
-print(f2,f3,sep='\n')
+﻿# 1.搭建pytenv环境，理解local/global/shell方式区别，并安装运行jupyter
+#安装pyenv
+curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+cat ~/.bash_profile
+export PATH='/home/hans/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+# 2.求100以内斐波那契数列，用两种方式实现
+# Fibonacci in 100，method one
+print('*'*10,'Fibonacci one','*'*10)
+a = 1
+b = 1
+n = 0
+lst = [a,b]
+for i in range(100):
+    n = a + b
+    if n > 100: break
+    lst.append(n)
+    a = b
+    b = n
+print(lst)
+
+# Fibonacci in 100,method two
+print('*'*10,'Fibonacci two','*'*10)
+a = 1
+b = 1
+c = 0
+print(a,b,sep = '\n')
 while True:
-    fm = f2 + f3
-    if fm > n: break
-	print(fm)
-    f2 = f3
-    f3 = fm   
-	
-	
-#作业3、使用 Python 实现随机生成 200 无重复激活码（或者优惠券），字符串长度大于5以上
+    c = a + b
+    if c > 100: break
+    print(c)
+    a = b
+    b = c
+
+# 3.随机生成200个无重复激活码，字符串长度大于5以上
+print('*'*10,'随机生成200个无重复激活码，长度为9','*'*10)
+strsource = string.ascii_letters + string.digits
+actcodelenth = 9
+actlist = []
+for i in range(200):
+    #构建指定长度激活码
+    codestr = ''.join(random.sample(strsource,k=actcodelenth))
+    if codestr not in actlist:
+        #添加到激活码库
+        actlist.append(codestr)
+print(actlist)
