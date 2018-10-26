@@ -1,0 +1,19 @@
+import random
+list = []
+count = 0
+for x in range(10):
+    list.append(str(x))
+
+#生成6位的激活码
+def gen_code():
+    s=''
+    for x in range(6):
+        a = random.choice(list)
+        s += a
+    print (s)
+    
+#生成200个激活码
+for x in range(200):
+    gen_code()
+    count += 1
+print("共计",count,"个激活码")
