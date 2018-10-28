@@ -2,9 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13d5063-ea85-4ec4-bb8b-2be0c21a2ecd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../LiBiao/week 1 homework/week 1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NebulaAudit/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NebulaAudit/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NebulaAudit/.idea/dataSources/80d20c88-d6b5-474a-a5f0-45f0f960df37.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NebulaAudit/.idea/dataSources/80d20c88-d6b5-474a-a5f0-45f0f960df37/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NebulaAudit/oop.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../NebulaAudit/settest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/.idea/dictionaries/xiaohuaxue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/.idea/mysite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/cmdb/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/cmdb/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/cmdb/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/cmdb/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/cmdb/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/cmdb/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/cmdb/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/djangotest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/djangotest/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/djangotest/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/djangotest/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djangotest/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/04f0cf80-6d73-4634-a484-cbeed7ade4ea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/04f0cf80-6d73-4634-a484-cbeed7ade4ea/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/xiaohuaxue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mysite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmdb/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LiZhao/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../LiZhao/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Luodongyu/week01/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Luodongyu/week01/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Oath/week1/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Oath/week1/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Rachirad/week1/job1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Rachirad/week1/job1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Roddy/week1/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Roddy/week1/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WangHonRon/week1/Readme.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../WangHonRon/week1/Readme.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WangHonRon/week3/circulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../WangHonRon/week3/circulation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Wangtiandi/week1/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Wangtiandi/week1/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../nothing-543/week1/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../../nothing-543/week1/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../p16020-zhangU/week1/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../../p16020-zhangU/week1/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../p16020-zhangU/week2/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../../p16020-zhangU/week2/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../p16020-zhangU/week3/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/../../p16020-zhangU/week3/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sh.exe.stackdump" beforeDir="false" afterPath="$PROJECT_DIR$/../../sh.exe.stackdump" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../xiaofei/week01/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../xiaofei/week01/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/.idea/NebulaAudit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/.idea/NebulaAudit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NebulaAudit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit2018/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit2018/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit2018/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit2018/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit2018/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit2018/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit2018/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit2018/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit2018/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/NebulaAudit2018/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/dicpractice1002.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/dicpractice1002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/logintest.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/logintest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/nodelist.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/nodelist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test0924.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test0924.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test0925.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test0925.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test092502.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test092502.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test092601.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test092601.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test092602.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test092602.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test092603.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test092603.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test092604.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test092604.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test092605.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test092605.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test092606.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test092606.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test092701.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test092701.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/test0927list.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/test0927list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/testDecorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/testDecorator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/testchar100101.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/testchar100101.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/testchar100102.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/testchar100102.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/testfunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/testfunction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/testkelihua.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/testkelihua.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/testsort093001.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/testsort093001.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/testsort093002.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/testsort093002.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/testyanghuisanj.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/testyanghuisanj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NebulaAudit/variableParameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/../NebulaAudit/variableParameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../zhanchengpeng/week1/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../zhanchengpeng/week1/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../zhanchengpeng/week1/use_git.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../zhanchengpeng/week1/use_git.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +119,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mysite$views.coverage" NAME="views Coverage Results" MODIFIED="1539483709629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/cmdb" />
     <SUITE FILE_PATH="coverage/mysite$manage.coverage" NAME="manage Coverage Results" MODIFIED="1539148646941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -26,7 +133,17 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -77,17 +194,78 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="797103010">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1216" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1216" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-379389177">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Django Console" value="85" />
+          <entry key="html" value="72" />
+          <entry key="py" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="72" />
+          <entry key="Python" value="113" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmdb/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="90">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <marker date="1539152262093" expanded="true" signature="86:91" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +273,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
+            <state relative-caret-position="300">
               <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
@@ -105,10 +283,48 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="150">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1878#1896#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,11 +334,14 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cmdb/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+            <state relative-caret-position="315">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,24 +351,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Python Script" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/mysite/settings.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mysite/urls.py" />
         <option value="$PROJECT_DIR$/static/js/jquery-1.12.4.js" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/cmdb/models.py" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/templates/newneble.html" />
         <option value="$PROJECT_DIR$/cmdb/views.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
       </list>
     </option>
   </component>
@@ -160,10 +384,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-333" />
-    <option name="y" value="46" />
-    <option name="width" value="1620" />
-    <option name="height" value="920" />
+    <option name="x" value="1920" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -171,7 +395,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,6 +406,12 @@
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="cmdb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="cmdb" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
@@ -205,23 +434,38 @@
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NebulaAudit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/css" />
+      <recent name="$PROJECT_DIR$/templates/image" />
       <recent name="D:\ghub\python-16\python-16\xiaohuaxue\mysite\static" />
     </key>
   </component>
@@ -260,6 +504,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="mysite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cmdb" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cmdb/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mysite" type="Python.DjangoServer" factoryName="Django server">
       <module name="mysite" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,9 +534,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="mysite.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python37\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
@@ -287,9 +553,11 @@
     <list>
       <item itemvalue="Django server.mysite" />
       <item itemvalue="Python.manage" />
+      <item itemvalue="Python.views" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.views" />
         <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
@@ -308,15 +576,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="1920" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12982005" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13365282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3018868" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24870466" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5900474" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -325,13 +595,13 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.47304583" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32938388" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32969153" />
-      <window_info anchor="right" id="Database" order="4" weight="0.38946015" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32960597" />
+      <window_info anchor="right" id="Database" order="4" weight="0.38870966" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,31 +611,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://04f0cf80-6d73-4634-a484-cbeed7ade4ea/schema/main/table/sqlite_master" />
     <entry file="das://04f0cf80-6d73-4634-a484-cbeed7ade4ea/schema/main/table/django_migrations" />
     <entry file="das://04f0cf80-6d73-4634-a484-cbeed7ade4ea/schema/main/table/auth_permission" />
     <entry file="das://04f0cf80-6d73-4634-a484-cbeed7ade4ea/schema/main/table/auth_group" />
     <entry file="das://04f0cf80-6d73-4634-a484-cbeed7ade4ea/schema/main/table/auth_group_permissions" />
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/django/db/models/options.py" />
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/django/utils/functional.py" />
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/django/db/models/manager.py" />
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/django/utils/deprecation.py" />
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/django/core/handlers/exception.py" />
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/django/core/handlers/base.py" />
     <entry file="file://$PROJECT_DIR$/cmdb/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <marker date="1539152262093" expanded="true" signature="86:91" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="300">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
@@ -373,10 +639,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="1215">
+          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -385,8 +651,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cmdb/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/css/main.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1878#1896#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

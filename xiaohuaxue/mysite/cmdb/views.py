@@ -16,8 +16,9 @@ def index(request):
         #添加数据到数据库
         models.UserInfo.objects.create(user=username,pwd=password)
     # 从数据库中读取所有数据
+    # user_list.append(models.UserInfo.objects.all())
     user_list = models.UserInfo.objects.all()
-    return render(request,"index.html",{'data':user_list})
+    return render(request, "index.html", {"data":user_list})
 
 
 # Create your views here.

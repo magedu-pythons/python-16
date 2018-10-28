@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style:none;
+        }
+        li{
+            margin:0 10px;
+            float:left;
+            color:#f40;
+            font-weight:bold;
+            font-size: 14px;
+            height: 25px;
+            line-height: 25px;
+            padding:0 5px;
+        }
+        li:hover{
+            border-radius: 15px;
+            background-color: #f40;
+            color:#fff;
+        }
+    </style>
+</head>
+<body>
+    <ul type="circle">
+        <li>天猫</li>
+        <li>聚划算</li>
+        <li>天猫超市</li>
+    </ul>
+    <img src="image/logo.png" style="width: 200px" alt="这是logo" title="图片提示符"><br>
+    <a id="demo1" href="http://www.baidu.com">www.baidu.com</a>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <a id="demo2" href="http://www.baidu.com" target="_blank"><img src="image/logo.png"></a>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <a href="#demo1">find demo1</a>
+    <a href="#demo2">find demo2</a>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <a href="tel:13636464471">给薛小华打电话</a>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+{#    <a href="javascript:while(1)"></a>#}
+    <form method="get" action="http://www.baidu.com">
+        <p>username:<input type="text" name="username" style="color:#999" value="请输入用户名" onfocus="if(this.value == '请输入用户名'){this.value = '';this.style.color='#424242'}" onblur="if(this.value == ''){this.value='请输入用户名';this.style.color='#999'}"></p>
+        <p>password:<input type="password" name="password"></p>
+        <input type="radio" name="stop" value="贝克汉姆">贝克汉姆<br>
+        <input type="radio" name="stop" value="乔丹">乔丹<br>
+        <input type="radio" name="stop" value="奥尼尔">奥尼尔<br>
+        <select name="province">
+            <option>beijin</option>
+            <option>shanghai</option>
+            <option>fujian</option>
+            <option>guangdong</option>
+            <option>tianjian</option>
+        </select>
+        <p><input type="submit" value="login"></p>
+    </form>
+</body>
+</html>

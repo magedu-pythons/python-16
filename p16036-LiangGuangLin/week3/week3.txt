@@ -1,0 +1,41 @@
+'''
+**************************************************
+作者：LiangGuanglin
+日期：2018-10-28
+作用：
+    1.给出任意一个列表，请查找出x元素是否在列表里面，如果存在返回1，不存在返回0
+	2. 2、任一个英文的纯文本文件，统计其中的单词出现的个数。
+***************************************************
+#第一题
+def findx(lst,x):
+    x = 1
+    if x in lst:
+        return 1
+    else:
+        return 0
+
+lst1 = [1,2,4,5,6]
+findx(lst1,x=1)
+
+
+
+#第二题
+import re
+dic = {}
+with open('tst.txt','r') as f:  
+    for line in f:    
+        #----找出字符列表------
+        list_c = re.findall(r'[^a-zA-Z0-9]+',line) 
+        print(list_c)
+        #----换成空值------
+        for i in list_c:
+            line = line.replace(i,' ')  
+        
+        #----提取单词------       
+        list_word = line.split()  
+        
+        #-----单词个数统计----
+        for i in list_word:
+            dic[i] = dic.get(i,0) + 1     
+
+print(dic)

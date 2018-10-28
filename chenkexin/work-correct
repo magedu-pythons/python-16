@@ -1,0 +1,70 @@
+#打印100以内斐波那契数列
+#方法一
+x = int(input("number is :"))
+y = 0
+z = 1
+while True:
+    c=z+y
+    z=y
+    y=c
+    if c<x: 
+        print(c)
+     else:
+        break
+#方法二  
+x = int(input("number is :"))
+y = 0
+z = 1
+while True:
+    z,y=y,z+y
+    if y>=x:
+        break
+    print(y)
+#生成200个无重复的激活码
+#初实验 
+import random
+x=[]
+y=[]
+for i in range(200):
+    num=str(random.randrange(0,10000))
+    st=''.join(random.sample(''.join([chr(i) for i in range(97,123)]),3))
+    ST=''.join(random.sample(''.join([chr(i) for i in range(65,90)]),3))
+    x.append(num)
+    x.append(st)
+    x.append(ST)
+count=0
+sho=False
+for i in range(100):
+    w=(random.choice(x[:])+random.choice(x[:])+random.choice(x[:]))
+    y.append(w)
+    for i in y:
+        if x==i:
+            sho=True
+						break
+		if sho:
+				continue
+    if count>=20:
+        break
+    count+=1
+y
+ #改进
+import random
+count=0
+sho=False
+w=[]
+for i in range(50):
+    num=str(random.randrange(0,10000))
+    st=''.join(random.sample(''.join([chr(i) for i in range(97,123)]),4))
+    ST=''.join(random.sample(''.join([chr(i) for i in range(65,90)]),4))
+    x=num+st+ST
+    for j in w:
+        if x==j:
+            sho=True
+						break
+		if sho:
+				contiue
+    if count>=20:
+        break
+    count+=1
+    w.append(x)
+    print(x)
