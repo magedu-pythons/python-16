@@ -38,8 +38,8 @@ with open('python.txt', 'r') as f:
 
 d = {}
 for key in L:
-    if key in d:
-        d[key] += 1
-    else:
+    if key not in d:
         d[key] = 1
+    else:
+        d[key] += 1
 print(d)
