@@ -7,3 +7,11 @@ if x in s:
     print('1')
 else:
     print('0')
+
+
+
+"""
+(0 + 0)
+    
+    
+"""

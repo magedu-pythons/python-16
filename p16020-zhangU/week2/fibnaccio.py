@@ -24,3 +24,10 @@ print("Fibonacci \r\n Result of Method one:\r")
 print1()
 print("Result of Method two:\r")
 print2()
+
+
+"""
+(0 + 0)
+
+    第二道题参考答案，重新实现一次
+"""

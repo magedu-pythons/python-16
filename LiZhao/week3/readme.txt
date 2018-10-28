@@ -9,3 +9,11 @@ def check(l):
 fl = open(r'/home/python/a.txt')
 s = str(fl.read())
 len(s.split())
+
+
+
+"""
+(0 + 0)
+
+       参考答案实现
+"""

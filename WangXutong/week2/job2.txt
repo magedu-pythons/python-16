@@ -19,3 +19,10 @@ for u in range(97,122):
 for i in range(200):
 #生成10个元素组成的列表，并打印
     print(str(random.sample(lst1,20)))
+
+
+ """
+(0 + 0)
+
+   修改成.py后缀文件
+"""

@@ -11,3 +11,11 @@ while len(lst) < 200:
     if activation_code not in lst:
         lst.append(activation_code)
 print(lst)
+
+
+
+"""
+(0 + 0)
+    
+    完成的不错！
+"""
