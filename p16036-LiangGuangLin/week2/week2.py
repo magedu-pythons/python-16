@@ -40,3 +40,9 @@ for i in range(300):
     if len(dic) >= 200:
         break
 print('非重复优惠码：',dic)
+
+"""
+(0 + 0)
+
+    2、dic变量不存在，写完代码记得测试成功后提交
+"""

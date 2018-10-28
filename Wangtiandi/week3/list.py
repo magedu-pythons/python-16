@@ -47,3 +47,11 @@ except ValueError:
     print(0)
 else:
     print(1)
+
+
+
+"""
+(0 + 0)
+
+    python中注释以#
+"""

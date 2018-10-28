@@ -11,3 +11,10 @@ def member(x:int, lst:list=None) -> int:
     return 0
 newlst = [i**0.5 for i in range(99)]
 print(member(18, newlst))
+
+
+"""
+(0 + 0)
+
+    做的不错
+"""

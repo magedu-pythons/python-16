@@ -14,3 +14,10 @@ def word_count(file):
                 word_dict[word] = 1
     return word_dict
 print(word_count('word.txt'))
+
+
+"""
+(0 + 0)
+
+    
+"""

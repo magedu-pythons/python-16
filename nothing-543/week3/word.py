@@ -18,3 +18,11 @@ with open(file_name, 'r') as word:
                 words_dict[i] = words_dict[i] + 1 
 for k,v in words_dict.items():
     print(k,v)
+
+
+
+"""
+(0 + 0)
+
+    做的不错，建议使用函数封装
+"""

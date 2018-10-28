@@ -22,3 +22,11 @@ for i in range(200):
         promo_code = random.choice(m)
         L.append(promo_code)
     print(''.join(L))
+
+
+
+"""
+(0 + 0)
+    
+    优惠码没有考虑去重
+"""

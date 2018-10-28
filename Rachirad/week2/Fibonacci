@@ -39,4 +39,9 @@ for Sum in range(10) :
     m1=m2
     m2=Sum
     print(Sum)
-    
+
+"""
+(0 + 0)
+
+    变量命名，不要使用和python中关键字相同的命名，如sum，在python中是关键字
+"""

@@ -16,3 +16,11 @@ def gen_code():
     print s
 for x in range(200):
     gen_code()
+
+
+
+"""
+(0 + 0)
+    
+    优惠码没有去重处理
+"""

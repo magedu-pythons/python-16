@@ -8,3 +8,11 @@ with open('file_test.txt', 'r', encoding = 'utf-8') as f:
     for char in result: 
         d[char] += 1                            # 遍历列表，计数单词出现的次数
 print(d)
+
+
+
+"""
+(0 + 0)
+    
+    建议封装成函数，参考答案的过滤处理
+"""
