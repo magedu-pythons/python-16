@@ -34,7 +34,6 @@ L = []
 with open('python.txt', 'r') as f:
     for i in f.readlines():
         L.append(i.strip('\n'))
-    f.close()
 
 d = {}
 for key in L:
