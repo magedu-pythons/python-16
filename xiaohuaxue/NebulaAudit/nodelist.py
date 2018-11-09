@@ -56,7 +56,7 @@ class ChainTable(object):
             self.length -= 1
 
 #修改节点数据
-    def update(self,index,data):
+    def update(self, index, data):
         if self.isEmpty():
             print('链表为空，无修改的对象')
             return
@@ -103,7 +103,7 @@ class ChainTable(object):
             flag.append(0)
 
         node = self.head
-        for i in range(1,self.length):
+        for i in range(1, self.length):
             node = node._next
             if node.data == data:
                 flag.append(i)
@@ -115,7 +115,7 @@ class ChainTable(object):
             return
 
 #插入数据insert()
-    def insert(self,index,data):
+    def insert(self, index, data):
         if self.isEmpty():
             print('链表为空，无获取的对象')
             return
