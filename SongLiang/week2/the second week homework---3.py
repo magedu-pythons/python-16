@@ -10,3 +10,9 @@ while len(lst) < 200:
 	else:
 		lst.append(s)
 print(lst)
+
+"""
+(0 + 0)
+
+	逻辑上没问题，优惠码需要加上字符
+"""

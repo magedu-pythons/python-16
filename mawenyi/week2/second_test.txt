@@ -1,0 +1,26 @@
+import random
+list = []
+count = 0
+for x in range(10):
+    list.append(str(x))
+
+#����6λ�ļ�����
+def gen_code():
+    s=''
+    for x in range(6):
+        a = random.choice(list)
+        s += a
+    print (s)
+    
+#����200��������
+for x in range(200):
+    gen_code()
+    count += 1
+print("����",count,"��������")
+
+
+"""
+(0 + 0)
+
+    没有考虑优惠码去重
+"""

@@ -28,3 +28,10 @@ def fib(s):
         n += 1
     print(l)
 fib(5)
+
+
+"""
+(0 + 0)
+    
+    goood
+"""

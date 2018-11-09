@@ -10,3 +10,9 @@ for i in range(100):
         print(s)
     else:
         break
+
+"""
+(0 + 0)
+
+    第二题参考答案实现
+"""
