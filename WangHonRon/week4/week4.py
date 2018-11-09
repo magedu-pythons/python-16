@@ -23,3 +23,14 @@ print('{0} is {1},{2}count_iter:{3},{4}count_flag:{5}'.format(n,flag,'\n',count_
 import random
 lst = [ random.randint(1,50) for i in range(20)]
 nums = lst.copy()
+length = len(nums)
+print('resourse list:{}{}copy list:{}'.format(lst,'\n',nums)) 
+
+for i in range(0,length):
+    for j in range(0,length-1):
+        
+        if nums[j] > nums[j + 1]:
+            nums[j],nums[j + 1] = nums[j + 1], nums[j]
+                       
+print('sorted list :{}'.format(nums))
+print('three elem of max:{}'.format(nums[-3:]))
