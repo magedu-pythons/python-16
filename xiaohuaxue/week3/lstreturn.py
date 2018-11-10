@@ -15,25 +15,31 @@ def opentest(path):
     with open(path,'r') as f:
         lst = f.read().strip().split()
         temp = []
+
         for i in range(len(lst)):
             for j in range(len(lst[i])):
                 if lst[i][j] == '.' :
                     temp.append(lst[i])
+
                     break
                 elif lst[i][j] =='!':
                     temp.append(lst[i])
+
                     break
                 elif lst[i][j] == ',':
                     temp.append(lst[i])
+
                     break
                 elif lst[i][j] == ':':
                     temp.append(lst[i])
+
                     break
                 elif lst[i][j] == ';':
                     temp.append(lst[i])
+
                     break
 
-        count = len(lst) - len(temp)
+        count = len(lst)-len(temp)
 
         for c in temp:
             lst_c = re.split('[!,.:;]',c)
@@ -41,8 +47,7 @@ def opentest(path):
                 if lst_c[k] == '':
                     lst_c.pop(k)
             count += len(lst_c)
-
-    return count
+        return count
 
 
 print(opentest("/ghub/python-16/python-16/xiaohuaxue/week3/test"))
