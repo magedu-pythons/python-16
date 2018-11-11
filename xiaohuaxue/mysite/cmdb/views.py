@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.shortcuts import HttpResponse
+# from django.shortcuts import HttpResponse
 from cmdb import models
 
 user_list = [
@@ -18,7 +18,9 @@ def index(request):
     # 从数据库中读取所有数据
     # user_list.append(models.UserInfo.objects.all())
     user_list = models.UserInfo.objects.all()
-    return render(request, "index.html", {"data":user_list})
+
+    return render(request,"index.html",{"data":user_list})
+
 
 
 # Create your views here.

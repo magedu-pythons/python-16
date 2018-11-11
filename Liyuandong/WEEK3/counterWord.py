@@ -7,7 +7,9 @@ from collections import Counter
 f = open('python.txt', 'r')
 L = []
 for i in f.readlines():
-    L.append(i.strip('\n'))
+    i = i.strip('\n')
+    if i.isalpha() == True:
+        L.append(i)
 f.close()
 cnt = Counter()
 for word in L:
@@ -21,7 +23,9 @@ from collections import Counter
 L = []
 with open('python.txt', 'r') as f:
     for i in f.readlines():
-        L.append(i.strip('\n'))
+        i = i.strip('\n')
+        if i.isalpha() == True:
+            L.append(i)
     f.close()
 cnt = Counter()
 for word in L:
@@ -33,7 +37,9 @@ print(cnt)
 L = []
 with open('python.txt', 'r') as f:
     for i in f.readlines():
-        L.append(i.strip('\n'))
+        i = i.strip('\n')
+        if i.isalpha() == True:
+            L.append(i)
 
 d = {}
 for key in L:
@@ -44,8 +50,5 @@ for key in L:
 print(d)
 
 
-"""
-(0 + 0)
 
-    做的不错,需要考虑去点一些标点符合非单词
-"""
+
