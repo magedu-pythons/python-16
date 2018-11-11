@@ -28,3 +28,9 @@ while True:
 #     if f2 > 100:
 #         break
 #     print(f2, end=' ')
+
+"""
+(0 + 0)
+
+    
+"""

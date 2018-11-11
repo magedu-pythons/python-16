@@ -40,3 +40,10 @@ for i in range(200):
             ran2 = random.randint(0,25)
             print(l[ran1][ran2],end='')
         print()
+
+
+"""
+(0 + 0)
+
+       用.py后会命名
+"""

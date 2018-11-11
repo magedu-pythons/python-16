@@ -62,7 +62,7 @@ instance/
 
 # Scrapy stuff:
 .scrapy
-
+.idea
 # Sphinx documentation
 docs/_build/
 
@@ -102,3 +102,4 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+LiangGuangLin/week1/1.txt

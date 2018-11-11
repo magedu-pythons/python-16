@@ -22,3 +22,10 @@ while len(ware1) < 200:
 
 for c in ware1:
     print(c)
+
+
+"""
+(0 + 0)
+
+    做的不错
+"""

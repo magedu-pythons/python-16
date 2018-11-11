@@ -47,3 +47,9 @@ except ValueError:
     print(0)
 else:
     print(1)
+
+"""
+(0 + 0)
+
+    python中注释使用#号,不然报语法错误
+"""

@@ -13,3 +13,10 @@ while lst[i] + lst[i+1] < 100:
     lst.append(lst[i] + lst[i+1])
     i += 1
 print(lst)
+
+
+"""
+(0 + 0)
+    
+    方法2 本质跟1是一样的，考虑其他方式
+"""

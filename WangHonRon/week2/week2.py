@@ -35,6 +35,7 @@ while True:
     b = c
 
 # 3.随机生成200个无重复激活码，字符串长度大于5以上
+import random
 print('*'*10,'随机生成200个无重复激活码，长度为9','*'*10)
 strsource = string.ascii_letters + string.digits
 actcodelenth = 9
@@ -46,3 +47,11 @@ for i in range(200):
         #添加到激活码库
         actlist.append(codestr)
 print(actlist)
+
+
+
+"""
+(0 + 0)
+
+    没有导入相关模块，程序运行测试成功后再进行提交
+"""

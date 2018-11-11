@@ -1,6 +1,6 @@
 # author: bruwon
 # date:2018-10-24
-# 1.¸øÈÎÒâÁĞ±í£¬²éÕÒxÔªËØÊÇ·ñÔÚÁĞ±íÀïÃæ£¬ÈôÔÚ·µ»Ø1£¬²»ÔÚ·µ»Ø0
+# 1.ç»™å‡ºä»»æ„ä¸€ä¸ªåˆ—è¡¨ï¼Œè¯·æŸ¥æ‰¾å‡ºxå…ƒç´ æ˜¯å¦åœ¨åˆ—è¡¨é‡Œé¢ï¼Œå¦‚æœå­˜åœ¨è¿”å›1ï¼Œä¸å­˜åœ¨è¿”å›0
 print('*'*10,'find elem x','*'*10)
 listr = random.sample(string.ascii_letters,10)
 elem = 'x'
@@ -15,18 +15,27 @@ for i in range(len(listr)):
         break
 print('elem:{},return:{}'.format(elem,flag))
 
-# 2.¸øÒ»¸öÓ¢ÎÄµÄ´¿ÎÄ±¾£¬Í³¼ÆÆäÖĞµÄµ¥´Ê³öÏÖµÄ¸öÊı
+# 2.ä»»ä¸€ä¸ªè‹±æ–‡çš„çº¯æ–‡æœ¬æ–‡ä»¶ï¼Œç»Ÿè®¡å…¶ä¸­çš„å•è¯å‡ºç°çš„ä¸ªæ•°
 print('*'*10,'find word in file','*'*10)
-#¹¹ÔìÒ»¸ö200¸öµ¥´ÊµÄÎÄ±¾
+#
 listext = []
 for i in range(200):
     englishtext = ''.join(random.sample(string.ascii_lowercase,5))
     listext.append(englishtext)
-print(listext)#´òÓ¡ÎÄ±¾
-#¿ªÊ¼±éÀú²éÕÒ²¢¼ÆÊı
-count = 0 #¼ÆÊıÆ÷
+print(listext)#
+#
+count = 0 #
 textstr = 'engli'
 for i in range(len(listext)):
     if listext[i] == textstr:
         count += 1
 print('the word:{},appear:{}'.format(textstr,count))
+
+
+
+
+"""
+(0 + 0)
+
+    å‚è€ƒç­”æ¡ˆå®ç°
+"""
