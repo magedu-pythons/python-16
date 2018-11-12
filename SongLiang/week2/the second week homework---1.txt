@@ -1,0 +1,24 @@
+搭建pyenv环境：
+1、安装git和pyenv需要的环境依赖包
+2、建议创建一个普通用户，在普通用户下安装pyenv
+3、使用curl命令在shell中模拟浏览器，把github上的p   yenv—installer脚本传给bash运行
+4、根据安装说明在把pyenv的路径添加到用户家目录下的	.bash_profile文件中，并设置为自动启动
+5、使用pyenv install --list查看可安装的列表
+6、使用pyenv install安装所需的包
+7、可用pyenv versions查看所有被pyenv管理的python版本
+8、通过pyenv virtualenv 版本 	虚拟名称，可以为某个版本建立虚拟环境，虚拟名称将通过软连接到该版本所在的位置
+9、创建项目文件夹，并cd到该文件下
+10.1、使用pyenv local 版本，可以将当前项目文件夹及其子文件夹设置为单独的python版本，但是	 依赖的包还是会和别的项目的包装在一起，不方便包的管理
+10.2、使用pyenv local 虚拟版本，为当前文件夹及其子文件夹设置一个完全独立的虚拟环境，依赖包	  的安装也将单独安装在虚拟版本所在的文件夹下，方便管理
+
+
+global：全局设置，所有被pyenv管理的窗口都会变成设置的版本
+local：本地设置，只在当前文件夹及其子文件夹内作用，适合管理项目
+shell：会话设置，只在当前会话有效，会话退出后失效
+
+
+jupyter的安装与使用：
+1、使用pip install jupyter安装
+2、可以通过设置jupyter notebook --ip=0.0.0.0，让宿主机通过访问虚拟机的ip地址来运行程序
+3、使用jupyter notebook启动
+

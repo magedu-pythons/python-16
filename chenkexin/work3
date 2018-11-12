@@ -1,0 +1,23 @@
+#问题一 方法一
+number = int(input('please enter an element: '))
+
+lst = [1,2,3,4,5,6,7,8]
+
+if lst.count(number) != 0: 
+    count_num=1
+else:
+    count_num=0
+print(count_num)
+#问题一 方法二
+number = int(input('please enter an element: '))
+lst = [1,2,3,4,5,6,7,8]
+for i in lst:
+    count=0
+    if i == number:
+        count=1
+        break
+print(count)
+#问题二
+x='Lists implement all of the common and mutable sequence operations. Lists also provide the following additional method'
+len(x.strip().split())
+
