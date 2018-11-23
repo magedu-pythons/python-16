@@ -1,0 +1,28 @@
+#问题一
+
+number = input('please number :')
+lst = list(number)
+for  i in range(len(number)//2):
+    if lst[i] != lst[-i-1]:
+        print('number NO')
+        break
+else:
+    print("number Yes")
+
+
+#问题二
+import random
+
+lst = [0]*20
+for i in range(20):
+    lst[i] = random.randint(1,100)
+
+for i in range(len(lst)):
+    maxnumber = i
+    for j in range(i,len(lst)):
+        if lst[maxnumber] < lst[j]:
+            maxnumber = j
+    if maxnumber != i:
+        lst[i] , lst[maxnumber] =  lst[maxnumber], lst[i] 
+
+print(lst[:3])
