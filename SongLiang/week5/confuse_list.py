@@ -22,3 +22,9 @@ def confuse_list(src, dst=[]):
 
 alist = [1,2,3,4,5]
 print(confuse_list(alist))
+
+"""
+(0 + 0)
+
+	函数形式参数不要用list
+"""

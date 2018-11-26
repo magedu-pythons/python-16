@@ -23,3 +23,9 @@ def good_sample(**kwargs):
 	return result
 
 print(good_sample(a=10, b=20, c=30, d=40))
+
+"""
+(0 + 0)
+
+
+"""

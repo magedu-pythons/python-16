@@ -34,3 +34,9 @@ for i in range(0,length):
                        
 print('sorted list :{}'.format(nums))
 print('three elem of max:{}'.format(nums[-3:]))
+
+"""
+(0 + 0)
+
+    用函数封装代码
+"""

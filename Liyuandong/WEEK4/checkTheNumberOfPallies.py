@@ -32,3 +32,9 @@ if flag:
     print('the "%s" is number of pallies' % s)
 else:
     print('the "%s" is not number of pallies' % s)
+
+"""
+(0 + 0)
+
+    方法一不够通用，代码用函数封装起来！
+"""

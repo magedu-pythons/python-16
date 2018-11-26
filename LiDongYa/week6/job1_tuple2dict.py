@@ -3,3 +3,10 @@
 func = lambda x, y:[dict((item,)) for item in zip(x, y)]
 
 print(func((('a'),('b')), (('c'),('d'))))	# 打印结果[{'a': 'c'}, {'b': 'd'}]
+
+
+"""
+(0 + 0)
+    很好！
+
+"""

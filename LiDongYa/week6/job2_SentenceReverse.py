@@ -26,3 +26,11 @@ def sentence_reverse2():
     return ' '.join(lst)
 
 print(sentence_reverse2())
+
+
+
+"""
+(0 + 0)
+
+
+"""

@@ -17,3 +17,9 @@ for x in range(3):
         lst[subscript], lst[x] = lst[x], lst[subscript]
 
     print('times:{},max value:{}'.format(x,lst[x]))
+
+"""
+(0 + 0)
+
+    用函数封装！
+"""

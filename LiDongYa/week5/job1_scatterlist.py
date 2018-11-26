@@ -19,3 +19,10 @@ def scatter2(src):
 alist = [1, 2, 3, 4, 5]
 print(scatter1(alist))
 print(scatter2(alist))
+
+
+"""
+(0 + 0)
+    不错！
+
+"""

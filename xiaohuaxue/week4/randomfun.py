@@ -8,3 +8,9 @@ lst_c = [lst_s[i] for i in range(3)]
 
 print(lst)
 print(lst_c)
+
+"""
+(0 + 0)
+
+    不错
+"""
