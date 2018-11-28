@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 ******************************************************************
 日期：2018-10-19
@@ -31,7 +31,7 @@ import random
 from random import choice
 
 foo = ['a', 'b', 'c', 'd', 'e','f','g','h','i','j','k',1,2,3,4,5,6,7,8,9,0]
-dic_code = {}
+dic = {}
 for i in range(300):
     n = random.randint(6,9)
     lst = random.sample(foo,n)

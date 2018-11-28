@@ -11,7 +11,7 @@ for i in range(2, len(num)):
         num[0] = num[i]
         num[i] = num[i-1]
         for j in range(i-2):
-            if int(num[0]) >= int(num[i-2-j]):
+            if num[0] >= num[i-2-j]:
                 num[i-1-j] = num[0]
                 break
             else:
