@@ -1,6 +1,9 @@
 # author: bruwon
 # date:2018-10-24
 # 1.给出任意一个列表，请查找出x元素是否在列表里面，如果存在返回1，不存在返回0
+import random
+import string
+
 print('*'*10,'find elem x','*'*10)
 listr = random.sample(string.ascii_letters,10)
 elem = 'x'
@@ -9,7 +12,6 @@ for i in range(len(listr)):
     if elem not in listr:
         flag = 0
         break
-
     else:
         flag = 1
         break
