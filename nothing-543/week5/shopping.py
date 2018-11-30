@@ -16,3 +16,10 @@ def shop():
         return 3   #拖鞋
     else:
         return 4   #项链
+
+
+"""
+(0 + 0)
+
+    参考答案实现
+"""

@@ -11,3 +11,9 @@ def palnumber(number):
         print('{}是回文数'.format(number))
     
 palnumber(input('please input number:'))
+
+"""
+(0 + 0)
+
+
+"""

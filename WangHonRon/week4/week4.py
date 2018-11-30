@@ -20,6 +20,7 @@ for i in range(lenth):
         break
 print('{0} is {1},{2}count_iter:{3},{4}count_flag:{5}'.format(n,flag,'\n',count_iter,'\n',count_flag))
 #2、随机生成20个数字，并且筛选出其中最大的3个数
+print('~'*50)
 import random
 lst = [ random.randint(1,50) for i in range(20)]
 nums = lst.copy()
@@ -34,3 +35,9 @@ for i in range(0,length):
                        
 print('sorted list :{}'.format(nums))
 print('three elem of max:{}'.format(nums[-3:]))
+
+"""
+(0 + 0)
+
+    用函数封装代码
+"""

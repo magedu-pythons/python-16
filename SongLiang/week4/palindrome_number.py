@@ -60,3 +60,9 @@ def palindrome_num(n:int):
         return
 
 palindrome_num(12321)
+
+"""
+(0 + 0)
+
+
+"""

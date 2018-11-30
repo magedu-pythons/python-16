@@ -14,3 +14,9 @@ def maxnumber(lst, n, maxnums=None): # 参数lst为源数据，n为最大数的�
     return maxnums
 
 maxnumber(source, 3)
+
+"""
+(0 + 0)
+
+
+"""
