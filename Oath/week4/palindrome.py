@@ -23,3 +23,9 @@ while True:
     print(is_palindrome(num))
     print('='*20)
     print(palindrome(num))
+
+"""
+(0 + 0)
+
+    不错！
+"""

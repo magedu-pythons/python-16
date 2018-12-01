@@ -9,3 +9,9 @@ if a==d and b==c:
     print("The number {} is palindromic number".format(num))
 else:
     print("The number {} is not palindromic number".format(num))
+
+"""
+(0 + 0)
+
+    不够通用，如果是6位数？
+"""

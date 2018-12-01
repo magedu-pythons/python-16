@@ -21,3 +21,10 @@ for i in lst1:
     print(lst[i])
     #print(maxnum)
     #lst.remove(maxnum)
+
+
+"""
+(0 + 0)
+
+    实现的太过于繁琐，可以更加精简
+"""

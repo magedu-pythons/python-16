@@ -26,3 +26,12 @@ for i in range(len(lst)):
         lst[i] , lst[maxnumber] =  lst[maxnumber], lst[i] 
 
 print(lst[:3])
+
+
+
+
+"""
+(0 + 0)
+
+   作业请提交 .py后缀文件，然后安装Answeers目录形式命名每周的作业
+"""
