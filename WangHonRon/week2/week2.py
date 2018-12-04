@@ -5,6 +5,7 @@
 #export PATH='/home/hans/.pyenv/bin:$PATH"
 #eval "$(pyenv init -)"
 #eval "$(pyenv virtualenv-init -)"
+import random
 
 # 2.求100以内斐波那契数列，用两种方式实现
 # Fibonacci in 100，method one
@@ -35,8 +36,9 @@ while True:
     b = c
 
 # 3.随机生成200个无重复激活码，字符串长度大于5以上
-import random
-import string 
+
+import string
+
 print('*'*10,'随机生成200个无重复激活码，长度为9','*'*10)
 strsource = string.ascii_letters + string.digits
 actcodelenth = 9
