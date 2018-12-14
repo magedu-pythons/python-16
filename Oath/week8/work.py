@@ -3,8 +3,8 @@ str1 = 'qwer'
 str2 = 'afsfqwerfdgfg'
 def sub(fstr: str, tstr: str):
     '''
-    :param fstr:
-    :param tstr:
+    :param fstr:str
+    :param tstr:str
     '''
     if tstr.find(fstr) == -1:
         return None
