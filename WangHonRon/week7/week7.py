@@ -21,11 +21,15 @@ print("string:{}".format(strs))
 print("list of char:{}".format(dataconversion(strs)))
 
 # No.2
-import pickle
-filepath = 'd:\test.log'
-def copyfile(filepath):
-    with open(filepath,'w') as f1:
-        pickle.dump(f1)
+file1 = 'd:\test1.log'
+file2 ='d:\test2.log'
+def copyfile(file1,file2):
+	with open(file1,'r') as f1:
+		with open(file2,'w') as f2:
+			content =f1.read()
+			f2.write(content)
+
+copyfile(file1,file2)
 
 # No.3
 
