@@ -68,3 +68,12 @@ for i in range(50):
     count+=1
     w.append(x)
     print(x)
+
+
+
+
+"""
+(0 + 0)
+
+   作业请提交 .py后缀文件，然后安装Answeers目录形式命名每周的作业
+"""

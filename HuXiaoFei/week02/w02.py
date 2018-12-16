@@ -32,6 +32,21 @@ while True:
     else:
         break
 
+# 方法3
+def fibs(x):
+
+    result = [0, 1]
+    for index in range(x - 2):  # 前两位已固定
+        result.append(result[-2] + result[-1])  # result[-2]倒数第二个数，result[-1]倒数第一个数
+
+    return result
+
+
+if __name__ == '__main__':
+    num = input('Enter one number: ')
+    num = int(num)
+    print(fibs(num))
+
 # 使用 Python 实现随机生成 200 个无重复激活码（或者优惠券），字符串长度大于5以上
 import random
 def v_code(n=5):
