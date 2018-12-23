@@ -36,6 +36,9 @@ def repeat(string):
 
 @repeat(str1)  #add_dict = repeat(string)(add_dict)
 def add_dict(string:str):
+    """
+    实现一个函数，输入字符串，判断该字符串是否不含有重复字符
+    """
     for c in string:
         d[c] = d.get(c, 0) + 1
 
