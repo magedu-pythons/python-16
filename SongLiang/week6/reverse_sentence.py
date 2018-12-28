@@ -21,3 +21,11 @@ def reverse_word(sen):
 
 	
 print(reverse_word(sen))
+
+
+
+"""
+(0 + 0)
+
+	不错~！
+"""

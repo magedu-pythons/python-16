@@ -21,3 +21,10 @@ def judge_str2(string):
             break
     else:
         print('字符串不含有重复字符')
+
+
+"""
+(0 + 0)
+
+    
+"""

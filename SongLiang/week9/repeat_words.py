@@ -33,3 +33,11 @@ def repeat_words(s):
 		print('There are no repeat word')
 
 repeat_words('acc')
+
+
+
+"""
+(0 + 0)
+
+	不错！
+"""

@@ -9,3 +9,8 @@ def str_list(string:str):
 
 print(str_list(string))
 
+"""
+(0 + 0)
+
+    不错！
+"""

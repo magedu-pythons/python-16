@@ -23,3 +23,11 @@ fnstr = lambda x: ' '.join(item for item in reversed(x.split()))
 print('reversed strings: {}'.format(fnstr(strings)))
 
 
+
+
+
+"""
+(0 + 0)
+
+    都做的不错！
+"""

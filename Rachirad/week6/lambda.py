@@ -27,3 +27,9 @@ astring="I like bing jing,i will visis Pk next year,so i  must wokr hard,learn m
 
 #reversed()函数
 遗留
+
+"""
+(0 + 0)
+
+    文件命名不要命名模块名或者python中的关键字，lambda是python的关键字
+"""

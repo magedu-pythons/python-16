@@ -59,3 +59,10 @@ def find_sum(array: list, n: int):
 lst = [1, 3, 4, 5, 6, 9, 2, 7, 6]
 n = 10
 print(find_sum(lst, n))
+
+
+"""
+(0 + 0)
+
+    还行！
+"""

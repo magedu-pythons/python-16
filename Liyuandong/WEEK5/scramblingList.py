@@ -27,3 +27,8 @@ def scrambList(s):
 alist = [1, 2, 3, 4, 5]
 print(scrambList(alist))
 
+"""
+(0 + 0)
+
+    用函数封装代码
+"""

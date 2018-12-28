@@ -28,4 +28,8 @@ def find_sum(lst:list, sum:int):
                 return lst[i], lst[j]
 
 
+"""
+(0 + 0)
 
+    建议第二题参考答案，另在实现一次
+"""

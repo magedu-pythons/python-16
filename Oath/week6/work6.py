@@ -30,3 +30,10 @@ def word_reverse(line:str):
     word = regex.split(line)
     return ' '.join(word[::-1])
 print(word_reverse(line))
+
+
+"""
+(0 + 0)
+
+    做的不错！建议加点换行，让代码更加清晰简洁
+"""

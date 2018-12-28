@@ -14,3 +14,10 @@ def listvalue4sum(src:list, number:int):
 
 lst = [1, 5, 2, 7, 4, 9]
 listvalue4sum(lst, 11)
+
+
+"""
+(0 + 0)
+
+   还行，参考答案的更好实现
+"""

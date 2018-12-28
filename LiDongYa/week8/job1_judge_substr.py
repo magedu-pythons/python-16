@@ -43,3 +43,11 @@ if __name__ == '__main__':
     str2 = 'cde'
     string = JudgeSubstr(str2)
     string.issubstr(str1)
+
+
+
+"""
+(0 + 0)
+
+   一个__name__就行  
+"""

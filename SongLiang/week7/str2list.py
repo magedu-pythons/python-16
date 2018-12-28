@@ -11,3 +11,10 @@ n = '1,2,3'
 regex = re.compile('\d')
 result = regex.findall(n)
 print(result)
+
+
+"""
+(0 + 0)
+
+    做的不错！
+"""

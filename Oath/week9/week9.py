@@ -42,3 +42,10 @@ print(str_repeat('abcdefa'))
 #
 str_repeat = lambda m_str: 'repeat' if len(m_str) > len(set(m_str)) else 'not repeat'
 print(str_repeat('abcdefa'))
+
+
+"""
+(0 + 0)
+
+	参考答案的更好实现
+"""

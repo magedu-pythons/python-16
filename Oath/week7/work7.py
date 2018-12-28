@@ -25,3 +25,10 @@ def cpfile(src, dst):
 src = 'test'
 dst = 'D:hy/12323/test1'
 cpfile(src, dst)
+
+
+"""
+(0 + 0)
+
+    基本上没问题！
+"""

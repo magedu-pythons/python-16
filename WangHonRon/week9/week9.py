@@ -46,3 +46,11 @@ def findrepeat():
 
 findrepeat()
 
+
+
+
+"""
+(0 + 0)
+
+    做的不错！
+"""

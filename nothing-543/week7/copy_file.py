@@ -5,3 +5,9 @@ def copy_file(src, desc):
             f2.write(f1.read())
 
 copy_file("readme.txt", "copy.txt")
+
+"""
+(0 + 0)
+
+    参考答案的更好实现
+"""

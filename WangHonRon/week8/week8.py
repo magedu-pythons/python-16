@@ -20,3 +20,11 @@ def is_equl_num(lst:list,num:int):
     return lt
 
 print(is_equl_num([1,5,2,7,4,9],11))
+
+
+
+"""
+(0 + 0)
+
+    第二题答案中有更好的实现
+"""

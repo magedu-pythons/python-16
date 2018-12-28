@@ -8,3 +8,10 @@ def rst(arg):
         print(l[i-1],end=' ')
 
 rst('hello world')
+
+
+"""
+(0 + 0)
+
+    建议自己增加一些数据测试，测试正确性
+"""
