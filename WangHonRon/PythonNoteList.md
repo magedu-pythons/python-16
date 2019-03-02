@@ -182,6 +182,48 @@
 
 4. http协议介绍；http请求数据包说明与定制构建；http常见请求头说明；http常见请求方法说明与应用；http响应数据包说明与定制构建；http常见响应头说明；
 
+
+###### web template
+> jinjia2 基于python的模板引擎，设计思路来自Django模板引擎
+> 官网文档： http://jinja.pocoo.org/
+
+```
+# 安装
+> pip install jinjia2
+> pip install Markupsafe
+```
+
+> code implement
+
+```
+# new yourapplication package,new file of python for templates
+from jinja2 import Environment, PackageLoader, select_autoescape
+env = Environment(
+    loader=PackageLoader('yourapplication', 'templates'),
+    autoescape=select_autoescape(['html', 'xml'])
+)
+dit = {
+    'userlist':[
+        (1,'zhangsan',29),
+        (2,'lisi',23),
+        (3,'wangwu',25)
+    ]
+}
+template = env.get_template('mytemplate.html')
+print(template.render(**dit) # render(the='variables', go='here')
+
+# new mytemplate.html in yourapplication
+<!DOCTYPE HTML>
+<html>
+ <body>
+  <ul>
+    <% for id,name,age in userlist>
+    <li>{{loop.index}},{{id}},{{name}},{{age}}</li>
+    <% endfor %>
+ </body>
+</html>
+
+```
 <h3 id='9'>9. 数据库编程与管理案例</h3>
 
 ---
