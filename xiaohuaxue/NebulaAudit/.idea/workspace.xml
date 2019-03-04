@@ -2,51 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c17b550e-2638-4c26-a606-125fc3e1c028" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/countpr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicpractice1002.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functionPractice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/insertPractice100201.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lambdafn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mactest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sortedNewlist.py" afterDir="false" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/addtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objectOriented/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/objectOriented/objectoriented1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../../LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/NebulaAudit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NebulaAudit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/nodelist.py" afterDir="false" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NebulaAudit/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/NebulaAudit/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NebulaAudit/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/NebulaAudit/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NebulaAudit/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/NebulaAudit/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NebulaAudit2018/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/NebulaAudit2018/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NebulaAudit2018/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/NebulaAudit2018/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NebulaAudit2018/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/NebulaAudit2018/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NebulaAudit2018/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/NebulaAudit2018/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NebulaAudit2018/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/NebulaAudit2018/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logintest.py" beforeDir="false" afterPath="$PROJECT_DIR$/logintest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test0924.py" beforeDir="false" afterPath="$PROJECT_DIR$/test0924.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test0925.py" beforeDir="false" afterPath="$PROJECT_DIR$/test0925.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test092502.py" beforeDir="false" afterPath="$PROJECT_DIR$/test092502.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test092601.py" beforeDir="false" afterPath="$PROJECT_DIR$/test092601.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test092602.py" beforeDir="false" afterPath="$PROJECT_DIR$/test092602.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test092603.py" beforeDir="false" afterPath="$PROJECT_DIR$/test092603.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test092604.py" beforeDir="false" afterPath="$PROJECT_DIR$/test092604.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test092605.py" beforeDir="false" afterPath="$PROJECT_DIR$/test092605.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test092606.py" beforeDir="false" afterPath="$PROJECT_DIR$/test092606.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test092701.py" beforeDir="false" afterPath="$PROJECT_DIR$/test092701.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test0927list.py" beforeDir="false" afterPath="$PROJECT_DIR$/test0927list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testDecorator.py" beforeDir="false" afterPath="$PROJECT_DIR$/testDecorator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testchar100101.py" beforeDir="false" afterPath="$PROJECT_DIR$/testchar100101.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testchar100102.py" beforeDir="false" afterPath="$PROJECT_DIR$/testchar100102.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testfunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/testfunction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testkelihua.py" beforeDir="false" afterPath="$PROJECT_DIR$/testkelihua.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsort093001.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsort093001.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testsort093002.py" beforeDir="false" afterPath="$PROJECT_DIR$/testsort093002.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testyanghuisanj.py" beforeDir="false" afterPath="$PROJECT_DIR$/testyanghuisanj.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variableParameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/variableParameter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../zhanchengpeng/week1/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../zhanchengpeng/week1/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dicpractice1002.py" beforeDir="false" afterPath="$PROJECT_DIR$/dicpractice1002.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/settest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mysite/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,31 +30,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/NebulaAudit$test0925.coverage" NAME="test0925 Coverage Results" MODIFIED="1537801749626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$logintest.coverage" NAME="logintest Coverage Results" MODIFIED="1538400432000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$variableParameter.coverage" NAME="variableParameter Coverage Results" MODIFIED="1538444457389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$fn.coverage" NAME="fn Coverage Results" MODIFIED="1538486947420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$t.coverage" NAME="t Coverage Results" MODIFIED="1538229697418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$test092502.coverage" NAME="test092502 Coverage Results" MODIFIED="1538057546710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NebulaAudit$functionPractice.coverage" NAME="functionPractice Coverage Results" MODIFIED="1538466183655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/NebulaAudit$addtest.coverage" NAME="addtest Coverage Results" MODIFIED="1538793841846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NebulaAudit$test092606.coverage" NAME="test092606 Coverage Results" MODIFIED="1537977924117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NebulaAudit$countpr.coverage" NAME="countpr Coverage Results" MODIFIED="1538470856556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NebulaAudit$test0924.coverage" NAME="test0924 Coverage Results" MODIFIED="1537931771639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NebulaAudit$test092603.coverage" NAME="test092603 Coverage Results" MODIFIED="1538444474431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
     <SUITE FILE_PATH="coverage/NebulaAudit$sortedNewlist.coverage" NAME="sortedNewlist Coverage Results" MODIFIED="1538487247572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$mactest.coverage" NAME="mactest Coverage Results" MODIFIED="1538443986713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$testyanghuisanj.coverage" NAME="testyanghuisanj Coverage Results" MODIFIED="1538204513317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NebulaAudit$testchar100102.coverage" NAME="testchar100102 Coverage Results" MODIFIED="1538367474142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$nodelist.coverage" NAME="nodelist Coverage Results" MODIFIED="1539303703564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$test092606.coverage" NAME="test092606 Coverage Results" MODIFIED="1537977924117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$test0927list.coverage" NAME="test0927list Coverage Results" MODIFIED="1538205038003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$testsort093001.coverage" NAME="testsort093001 Coverage Results" MODIFIED="1538362922567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$logintest.coverage" NAME="logintest Coverage Results" MODIFIED="1538400432000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$test092605.coverage" NAME="test092605 Coverage Results" MODIFIED="1537975889112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$variableParameter.coverage" NAME="variableParameter Coverage Results" MODIFIED="1538444457389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$test0924.coverage" NAME="test0924 Coverage Results" MODIFIED="1537931771639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$test092602.coverage" NAME="test092602 Coverage Results" MODIFIED="1537962878349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$dicpractice1002.coverage" NAME="dicpractice1002 Coverage Results" MODIFIED="1539131340310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NebulaAudit$test092604.coverage" NAME="test092604 Coverage Results" MODIFIED="1538204902975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$dicpractice1002.coverage" NAME="dicpractice1002 Coverage Results" MODIFIED="1538468184783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NebulaAudit$testsort093002.coverage" NAME="testsort093002 Coverage Results" MODIFIED="1538294603305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NebulaAudit$test092601.coverage" NAME="test092601 Coverage Results" MODIFIED="1537941891418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/NebulaAudit$objectoriented1.coverage" NAME="objectoriented1 Coverage Results" MODIFIED="1538835884184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/objectOriented" />
     <SUITE FILE_PATH="coverage/NebulaAudit$insertPractice100201.coverage" NAME="insertPractice100201 Coverage Results" MODIFIED="1538456116336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NebulaAudit$test0927list.coverage" NAME="test0927list Coverage Results" MODIFIED="1538205038003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+    <SUITE FILE_PATH="coverage/NebulaAudit$mactest.coverage" NAME="mactest Coverage Results" MODIFIED="1538443986713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$settest.coverage" NAME="settest Coverage Results" MODIFIED="1539432358416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$oop.coverage" NAME="oop Coverage Results" MODIFIED="1539310964329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$t.coverage" NAME="t Coverage Results" MODIFIED="1538229697418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$countpr.coverage" NAME="countpr Coverage Results" MODIFIED="1538470856556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$testyanghuisanj.coverage" NAME="testyanghuisanj Coverage Results" MODIFIED="1538204513317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$fn.coverage" NAME="fn Coverage Results" MODIFIED="1538486947420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
     <SUITE FILE_PATH="coverage/NebulaAudit$testchar100101.coverage" NAME="testchar100101 Coverage Results" MODIFIED="1538363017277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$test092605.coverage" NAME="test092605 Coverage Results" MODIFIED="1537975889112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$test092602.coverage" NAME="test092602 Coverage Results" MODIFIED="1537962878349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/NebulaAudit$testsort093001.coverage" NAME="testsort093001 Coverage Results" MODIFIED="1538362922567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$test0925.coverage" NAME="test0925 Coverage Results" MODIFIED="1537801749626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$insertPractice100201.coverage" NAME="insertPractice100201 Coverage Results" MODIFIED="1538456116336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$test092502.coverage" NAME="test092502 Coverage Results" MODIFIED="1538057546710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NebulaAudit$test092603.coverage" NAME="test092603 Coverage Results" MODIFIED="1538444474431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -92,11 +84,44 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="identifier.sqlite" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="identifier.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="identifier.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="identifier.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+        <item name="sqlite_master: table" type="ffe0bd85:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="identifier.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="80d20c88-d6b5-474a-a5f0-45f0f960df37" />
+    </checked>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1382767289">
@@ -166,34 +191,74 @@
     <session id="1396050793">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="11" />
+          <entry key="py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="11" />
+          <entry key="Python" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Django Console" value="466" />
+          <entry key="Django Console" value="540" />
           <entry key="dummy" value="6" />
-          <entry key="py" value="2381" />
+          <entry key="py" value="2980" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="2847" />
+          <entry key="Python" value="3520" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1575354249">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Django Console" value="4626" />
+          <entry key="py" value="3675" />
+          <entry key="sql" value="211" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="8301" />
+          <entry key="Scratch" value="211" />
         </counts>
       </usages-collector>
     </session>
@@ -204,57 +269,123 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/variableParameter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            <state relative-caret-position="263">
+              <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/insertPractice100201.py">
+        <entry file="file://$PROJECT_DIR$/testyanghuisanj.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+=======
         <entry file="file://$PROJECT_DIR$/functionPractice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-217">
-              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-              <folding>
-                <marker date="1538466183000" expanded="true" signature="454:459" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+            <state relative-caret-position="589">
+              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
         <entry file="file://$PROJECT_DIR$/dicpractice1002.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding>
-                <marker date="1538468184000" expanded="true" signature="15:32" ph="..." />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/testsort093002.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="21" selection-end-column="15" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/dicpractice1002.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/80d20c88-d6b5-474a-a5f0-45f0f960df37/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/testsort093001.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+=======
+        <entry file="file://C:/Python37/Lib/collections/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-113">
+              <caret line="355" lean-forward="true" selection-start-line="355" selection-end-line="355" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+        <entry file="file://$PROJECT_DIR$/oop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <marker date="1539310983223" expanded="true" signature="15:20" ph="..." />
+              </folding>
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/testkelihua.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testDecorator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+<<<<<<< HEAD
+            <state relative-caret-position="225">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testfunction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+=======
+            <state relative-caret-position="304">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+        <entry file="file://$PROJECT_DIR$/testDecorator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
             </state>
           </provider>
         </entry>
@@ -262,32 +393,92 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/countpr.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <marker date="1538470856000" expanded="true" signature="20:25" ph="..." />
+              </folding>
+=======
+            <state relative-caret-position="152">
+=======
+            <state relative-caret-position="136">
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addtest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding>
+                <marker date="1538794922000" expanded="true" signature="20:206" ph="..." />
+                <marker date="1538794922000" expanded="true" signature="59:68" ph="..." />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sortedNewlist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nodelist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="134" column="22" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
+              <folding>
+<<<<<<< HEAD
+                <marker date="1539088539004" expanded="true" signature="2275:2276" ph="..." />
+                <marker date="1539088539004" expanded="true" signature="2932:2941" ph="..." />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+                <marker date="1539310983362" expanded="true" signature="2274:2275" ph="..." />
+                <marker date="1539310983362" expanded="true" signature="2931:2940" ph="..." />
+                <marker date="1539310983362" expanded="true" signature="3533:3536" ph="..." />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sortedNewlist.py">
+        <entry file="file://$PROJECT_DIR$/settest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="77" column="25" lean-forward="true" selection-start-line="58" selection-end-line="85" selection-end-column="50" />
-              <folding>
-                <marker date="1538487279000" expanded="true" signature="63:64" ph="..." />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lambdafn.py">
+        <entry file="file://$PROJECT_DIR$/objectOriented/objectoriented1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <marker date="1538835884000" expanded="true" signature="14:19" ph="..." />
+                <marker date="1538835884000" expanded="true" signature="82:83" ph="..." />
+                <marker date="1538835884000" expanded="true" signature="82:98" ph="..." />
+                <marker date="1538835884000" expanded="true" signature="82:100" ph="..." />
+                <marker date="1538835884000" expanded="true" signature="82:159" ph="..." />
+              </folding>
+=======
+            <state relative-caret-position="209">
+=======
+            <state relative-caret-position="187">
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -295,8 +486,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mactest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="51">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
             </state>
           </provider>
         </entry>
@@ -314,12 +506,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< HEAD
+    <setting file="file://$PROJECT_DIR$/objectOriented/objectoriented1.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/addtest.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/functionPractice.py" root0="SKIP_INSPECTION" />
+=======
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
     <setting file="file://$PROJECT_DIR$/countpr.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/testDecorator.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/sortedNewlist.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/variableParameter.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/nodelist.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/testDecorator.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/functionPractice.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/sortedNewlist.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/logintest.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/dicpractice1002.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/consoles/db/80d20c88-d6b5-474a-a5f0-45f0f960df37/console.sql" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -345,11 +546,25 @@
         <option value="$PROJECT_DIR$/mactest.py" />
         <option value="$PROJECT_DIR$/functionPractice.py" />
         <option value="$PROJECT_DIR$/testDecorator.py" />
-        <option value="$PROJECT_DIR$/dicpractice1002.py" />
         <option value="$PROJECT_DIR$/insertPractice100201.py" />
         <option value="$PROJECT_DIR$/countpr.py" />
         <option value="$PROJECT_DIR$/fn.py" />
         <option value="$PROJECT_DIR$/sortedNewlist.py" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/addtest.py" />
+        <option value="$PROJECT_DIR$/objectOriented/objectoriented1.py" />
+=======
+        <option value="$PROJECT_DIR$/nodelist.py" />
+        <option value="$PROJECT_DIR$/dicpractice1002.py" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+        <option value="$PROJECT_DIR$/dicpractice1002.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/80d20c88-d6b5-474a-a5f0-45f0f960df37/console.sql" />
+        <option value="$PROJECT_DIR$/oop.py" />
+        <option value="$PROJECT_DIR$/nodelist.py" />
+        <option value="$PROJECT_DIR$/settest.py" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
       </list>
     </option>
   </component>
@@ -360,9 +575,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="977" />
+    <option name="x" value="-333" />
+    <option name="y" value="46" />
+    <option name="width" value="1620" />
+    <option name="height" value="920" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -370,6 +586,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,15 +599,46 @@
               <item name="NebulaAudit" type="462c0819:PsiDirectoryNode" />
               <item name="NebulaAudit2018" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+            <path>
+              <item name="NebulaAudit" type="b2602c69:ProjectViewProjectNode" />
+<<<<<<< HEAD
+              <item name="NebulaAudit" type="462c0819:PsiDirectoryNode" />
+              <item name="objectOriented" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="NebulaAudit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="NebulaAudit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NebulaAudit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="外部库" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Lib" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+            </path>
+=======
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -413,30 +661,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sortedNewlist">
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.objectoriented1">
+    <configuration name="addtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.dicpractice1002">
     <configuration name="countpr" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NebulaAudit" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/countpr.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+  <component name="RunManager" selected="Python.settest">
     <configuration name="dicpractice1002" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
       <module name="NebulaAudit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -449,7 +685,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/addtest.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dicpractice1002.py" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -458,7 +698,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+<<<<<<< HEAD
+    <configuration name="countpr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="nodelist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
       <module name="NebulaAudit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -471,7 +715,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lambdafn.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/countpr.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nodelist.py" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -480,7 +728,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="functionPractice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="oop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NebulaAudit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -493,7 +741,45 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functionPractice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <configuration name="objectoriented1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="nodelist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+    <configuration name="settest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
+      <module name="NebulaAudit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/objectOriented" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/objectOriented/objectoriented1.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nodelist.py" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/settest.py" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -549,19 +835,35 @@
     </configuration>
     <list>
       <item itemvalue="Django server.NebulaAudit" />
-      <item itemvalue="Python.functionPractice" />
-      <item itemvalue="Python.dicpractice1002" />
+<<<<<<< HEAD
       <item itemvalue="Python.countpr" />
       <item itemvalue="Python.sortedNewlist" />
       <item itemvalue="Python.fn" />
+      <item itemvalue="Python.addtest" />
+      <item itemvalue="Python.objectoriented1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.sortedNewlist" />
-        <item itemvalue="Python.fn" />
-        <item itemvalue="Python.countpr" />
+        <item itemvalue="Python.objectoriented1" />
+        <item itemvalue="Python.addtest" />
+=======
+      <item itemvalue="Python.dicpractice1002" />
+      <item itemvalue="Python.sortedNewlist" />
+      <item itemvalue="Python.nodelist" />
+      <item itemvalue="Python.oop" />
+      <item itemvalue="Python.settest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.settest" />
+        <item itemvalue="Python.oop" />
+        <item itemvalue="Python.nodelist" />
+<<<<<<< HEAD
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
         <item itemvalue="Python.dicpractice1002" />
-        <item itemvalue="Python.functionPractice" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
+        <item itemvalue="Python.sortedNewlist" />
       </list>
     </recent_temporary>
   </component>
@@ -588,33 +890,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1920" height="977" extended-state="6" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.27529287" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.27795526" />
+=======
+    <frame x="-333" y="46" width="1620" height="920" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.28589743" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974093" visible="true" weight="0.15167095" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
       <window_info id="Structure" order="1" sideWeight="0.50259066" side_tool="true" weight="0.22750643" />
       <window_info id="Favorites" order="2" sideWeight="0.50259066" side_tool="true" weight="0.22750643" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2937853" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41509435" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30056497" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32884097" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50064266" side_tool="true" weight="0.47909606" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50064266" side_tool="true" weight="0.5006748" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32884097" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.49265537" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4993573" weight="0.47233468" />
       <window_info anchor="bottom" id="找到" order="13" />
-      <window_info anchor="bottom" id="运行" order="14" sideWeight="0.4993573" weight="0.46495956" />
+      <window_info anchor="bottom" id="运行" order="14" sideWeight="0.4993573" weight="0.27395412" />
       <window_info anchor="bottom" id="调试" order="15" sideWeight="0.4993573" weight="0.50269544" />
+      <window_info active="true" anchor="bottom" id="Database Console" order="16" visible="true" weight="0.32928476" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32969153" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32969153" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.3303342" />
+      <window_info anchor="right" id="数据库" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -696,13 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testyanghuisanj.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test092701.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -717,13 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testfunction.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testchar100102.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -731,16 +1033,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/testsort093002.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="21" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
     <entry file="file://$PROJECT_DIR$/test092606.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -755,16 +1057,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/testsort093001.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
     <entry file="file://$PROJECT_DIR$/test092603.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -779,6 +1081,58 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/insertPractice100201.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+=======
+    <entry file="file://$PROJECT_DIR$/variableParameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insertPractice100201.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/collections/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="465">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <marker date="1538466183000" expanded="true" signature="454:459" ph="..." />
+          </folding>
+=======
+        <state relative-caret-position="589">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+        <state relative-caret-position="6612">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/lambdafn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mactest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -786,74 +1140,208 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/variableParameter.py">
+    <entry file="file://$PROJECT_DIR$/sortedNewlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testDecorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/countpr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="865">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
           <folding>
-            <marker date="1538470856000" expanded="true" signature="20:25" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functionPractice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding>
-            <marker date="1538466183000" expanded="true" signature="454:459" ph="..." />
+            <marker date="1538487279000" expanded="true" signature="63:64" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dicpractice1002.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <marker date="1538468184000" expanded="true" signature="15:32" ph="..." />
+          </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/testDecorator.py">
+=======
+    <entry file="file://$PROJECT_DIR$/functionPractice.py">
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dicpractice1002.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="1463">
+          <caret line="77" column="25" selection-start-line="58" selection-end-line="85" selection-end-column="50" />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+        <state relative-caret-position="357">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/80d20c88-d6b5-474a-a5f0-45f0f960df37/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+<<<<<<< HEAD
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <marker date="1538470856000" expanded="true" signature="20:25" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insertPractice100201.py">
+    <entry file="file://$PROJECT_DIR$/variableParameter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="263">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lambdafn.py">
+    <entry file="file://$PROJECT_DIR$/testsort093001.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkelihua.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testfunction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testDecorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testsort093002.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="21" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testyanghuisanj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/objectOriented/objectoriented1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <marker date="1538835884000" expanded="true" signature="14:19" ph="..." />
+            <marker date="1538835884000" expanded="true" signature="82:83" ph="..." />
+            <marker date="1538835884000" expanded="true" signature="82:98" ph="..." />
+            <marker date="1538835884000" expanded="true" signature="82:100" ph="..." />
+            <marker date="1538835884000" expanded="true" signature="82:159" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addtest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <marker date="1538794922000" expanded="true" signature="20:206" ph="..." />
+            <marker date="1538794922000" expanded="true" signature="59:68" ph="..." />
+=======
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+=======
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1539310983223" expanded="true" signature="15:20" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testDecorator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countpr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sortedNewlist.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="77" column="25" lean-forward="true" selection-start-line="58" selection-end-line="85" selection-end-column="50" />
+        <state relative-caret-position="901">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lambdafn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mactest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodelist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="134" column="22" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
           <folding>
-            <marker date="1538487279000" expanded="true" signature="63:64" ph="..." />
+<<<<<<< HEAD
+            <marker date="1539088539004" expanded="true" signature="2275:2276" ph="..." />
+            <marker date="1539088539004" expanded="true" signature="2932:2941" ph="..." />
+>>>>>>> 0f8f526f4c6ed411426b331c5a067022c7d7846c
+=======
+            <marker date="1539310983362" expanded="true" signature="2274:2275" ph="..." />
+            <marker date="1539310983362" expanded="true" signature="2931:2940" ph="..." />
+            <marker date="1539310983362" expanded="true" signature="3533:3536" ph="..." />
+>>>>>>> 5ce6c6eda788bea5ede2070b7a3b58e58fddb496
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>

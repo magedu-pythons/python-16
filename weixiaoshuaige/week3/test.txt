@@ -1,0 +1,1 @@
+LogRocket lets you replay problems as if they happened in your own browser. Instead of guessing why errors happen, or asking users for screenshots and log dumps, you can replay sessions to quickly understand what went wrong.
