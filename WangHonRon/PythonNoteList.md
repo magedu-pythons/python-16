@@ -153,7 +153,7 @@ class Singleton:
 
 在Python中，实例变量名如果以头`__name__`，就变成了一个私有变量（private）,只有内部可以访问，外部不能访问。如果外部要访问，请给实例增加get方法。
 例外，如`_name`单下划线开头，可以被外部访问，但按约定不要随意访问。
-_ python本身没有任何机制阻止我们干坏事，一切靠自觉 _
+_python本身没有任何机制阻止我们干坏事，一切靠自觉_
 
 ```python
 class Student:
@@ -179,6 +179,29 @@ class Student:
 
 > #### 实例属性和类属性
 
+- 属性定义：
+
+    * 实例属性：声明在方法中，通过self声明的属性，是实例对象所特有的属性，而实例对象是类创建的对象。实例属性是在`__init__`方法中定义的属性，self是指向实例自己，类似Java中的this关键字，实际是通过内置的方法`setattr()`完成的。
+    * 类属性：声明在类内部，方法外部的属性。是定义类时候直接定义的属性，类似Java中static修饰的属性，可直接通过类名访问。
+    _当类属性和实例属性同名时，一个实例访问这个属性时实例属性会覆盖类属性，但类访问时不会_
+
+- 属性访问顺序
+`实例调用__getattribute__() --> instance.__dict__-->instance.__class__.__dict__-->继承祖先类的__dict__ --> __getattr__()`
+- 举例
+
+```python
+class People():
+    name = 'jerry' # 公有的类属性
+    __age = 18 # 私有的类属性
+    
+    def __init__(self, name, age):
+        self.name = name # 实例属性
+        self.__age = age # 实例属性
+        
+p = People('tom',21)
+p.name # tom
+People.name # jerry
+```
 - #### 面向对象高级
 
 > #### 使用__slots__
