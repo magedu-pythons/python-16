@@ -43,8 +43,6 @@
 
 4. Python解释器分类和区别，官方CPython，增强的交互式IPython，使用JIT技术的PyPy，以及虚拟机使用的Jython,IronPython
 
-
-
 <h3 id='2'>2. Python语言结构和语法</h3>
 
 ---
@@ -62,12 +60,6 @@
 3. type等其他运算符说明；数据类型转换运算；字符串数据结构运算；
 
 4. 元组tuple数据结构使用、列表list数据结构使用、字典dict数据结构使用、复杂的数据结构使用（如栈、队列、链表）
-
-```
- #python
-   tup = (3,2,1,4) #定义tuple数据结构，存放固定数据   
-   print(tup)   
-```
 
 5. if条件语句、for循环语句、while循环语句；break、continue、return中断与程序中断语句；
 
@@ -129,7 +121,57 @@
 
 > #### 类和实例
 
+##### 单例类
+
+单例模式是一种常用的软件设计模式，其定义是单例对象的类只能允许一个实例存在。
+
+- 应用场景：
+    1. 需要频繁进行创建和销毁的对象；
+    2. 创建对象时消耗资源过多或消耗时间过多，但又经常用到的对象；
+    3. 工具类对象；
+    4. 频繁访问数据库或文件的对象；
+
+- 实现思路：
+
+    1. 将该类的方法定义为私有方法；
+    2. 在该类内定义静态方法；
+    
+- 实现代码：
+
+```python
+class Singleton:
+    _instance = None
+    def __new__(cls, *args, **kwargs):
+        if not cls._instance:
+            cls._instance = super.__new__(cls, *args, **kwargs)
+            return  cls._instance
+```
+
 > #### 访问限制
+
+- 私有变量
+
+在Python中，实例变量名如果以头`__name__`，就变成了一个私有变量（private）,只有内部可以访问，外部不能访问。如果外部要访问，请给实例增加get方法。
+例外，如`_name`单下划线开头，可以被外部访问，但按约定不要随意访问。
+_ python本身没有任何机制阻止我们干坏事，一切靠自觉 _
+
+```python
+class Student:
+    def __init__(self, name, score):
+        self.__name = name
+        self.__score = score
+        
+    def get_name(self):
+        return self.__name
+    def get_score(self):
+        return self.__score
+    def set_score(self, score):
+        self.__score = score        
+```
+
+- 特殊变量
+
+在Python中，变量名以`__xxx__`双下划线开头和结尾命名的，是特殊变量，可以直接访问的，不是private变量
 
 > #### 集成和多态
 
