@@ -410,6 +410,26 @@ print(template.render(**dit) # render(the='variables', go='here')
  </body>
 </html>
 ```
+> #### React框架
+
+- React 起源于 Facebook 的内部项目，在2013年5月开源。
+- React 是一个采用声明式，高效而且灵活的用来构建用户界面的框架
+- React主要用于构建UI，可以在React里传递多种类型的参数，如声明代码，帮助你渲染出UI、也可以是静态的HTML DOM元素、也可以传递动态变量、甚至是可交互的应用组件。
+*使用React前必须熟悉HTML和JavaScript*
+*熟悉ES6最新版本的 JavaScript,主要使用 arrow functions, classes, let, and const 几个新的语法和关键字*
+##### React开发环境搭建
+1. 安装最新版Node.js
+2. 创建新的React项目
+3. 删除掉生成项目中 src/ 文件夹下的所有文件
+4. 在 src/ 文件夹下新建一个名为 index.css 的文件
+5. 在 src/ 文件夹下新建一个名为 index.js 的文件，并在此文件的最开头加上下面几行代码
+```
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+```
+
+*接下来通过命令行在你的项目目录下运行 npm start 命令,并在浏览器中打开 http://localhost:3000 就能够看到HTML网页*
 
 <h4 id='8.3'>8.3 电子邮件</h4>
 
