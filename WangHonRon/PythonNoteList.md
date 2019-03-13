@@ -415,9 +415,9 @@ print(template.render(**dit) # render(the='variables', go='here')
 - React 起源于 Facebook 的内部项目，在2013年5月开源。
 - React 是一个采用声明式，高效而且灵活的用来构建用户界面的框架
 - React主要用于构建UI，可以在React里传递多种类型的参数，如声明代码，帮助你渲染出UI、也可以是静态的HTML DOM元素、也可以传递动态变量、甚至是可交互的应用组件。
-*使用React前必须熟悉HTML和JavaScript*
-*熟悉ES6最新版本的 JavaScript,主要使用 arrow functions, classes, let, and const 几个新的语法和关键字*
-##### React开发环境搭建
+    - *使用React前必须熟悉HTML和JavaScript*
+    - *熟悉ES6最新版本的 JavaScript,主要使用 arrow functions, classes, let, and const 几个新的语法和关键字*
+- React开发环境搭建
 1. 安装最新版Node.js
 2. 创建新的React项目
 3. 删除掉生成项目中 src/ 文件夹下的所有文件
@@ -429,7 +429,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 ```
 
-*接下来通过命令行在你的项目目录下运行 npm start 命令,并在浏览器中打开 http://localhost:3000 就能够看到HTML网页*
+   - *接下来通过命令行在你的项目目录下运行 npm start 命令,并在浏览器中打开 http://localhost:3000 就能够看到HTML网页*
+- 使用技巧
+    * JSX， 一种 JavaScript 的语法扩展。 我们推荐在 React 中使用 JSX 来描述用户界面。JSX 乍看起来可能比较像是模版语言，但事实上它完全是在 JavaScript 内部实现的。  
+    * Babel 转译器会把 JSX 转换成一个名为 React.createElement() 的方法调用。
+    * 元素渲染
+    * 组件&Props
+    * state&生命周期
+    * 事件处理
+    * 条件渲染
+    * 列表&keys
+    * 表单
+    * 状态提升
+    * 组合继承
+    * React理念
+
 
 <h4 id='8.3'>8.3 电子邮件</h4>
 
