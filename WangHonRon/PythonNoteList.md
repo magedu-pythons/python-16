@@ -417,7 +417,8 @@ class MyTCPServer(TCPServer, ForkingMixIn):
    
 > #### 定制类
 
-   定义：Python的class中有很多特殊用途的函数，可以帮助我们定制类，如`__slots__`等形如`__xxx__`;    
+   定义：Python的class中有很多特殊用途的函数，可以帮助我们定制类，如`__slots__`等形如`__xxx__`;   
+    
    函数|定义|语法
    --|--|--
    `__str__`|返回字符串格式|返回用户看到的字符串格式
