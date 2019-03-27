@@ -196,13 +196,55 @@
 
 > #### 切片
 
+   有了切片操作，很多地方循环就不再需要了。Python的切片非常灵活，一行代码就可以实现很多行循环才能完成的操作。  
+   操作对象：list、tuple、str；替代了其他语言的截取函数，如`substring()`  
+   应用场景：对经常取指定索引范围的操作，用循环十分繁琐，因此，Python提供了切片（Slice）操作符，能大大简化这种操作。  
+   使用方法：如`Mylist[0:5]`表示，从索引0开始，直到索引5为止；但不包括索引5，即索引0，1，2，3，4，正好5个元素。如果第一个索引是0还可以省略，如`Mylist[:]`；还支持步长，如每两个取一个`Mylist[::2]`  
+
 > #### 迭代
+
+   定义：给定一个list或tuple，我们可以通过for循环来遍历这个list或tuple，这种遍历我们称为迭代（Iteration）  
+   场景：任何可迭代对象都可以作用于for循环，包括我们自定义的数据类型，只要符合迭代条件，就可以使用for循环。  
+   判断：使用函数`isinstance(object,Iterable)`判断结果反馈True为可迭代、返回False为不可迭代。  
+   语法：迭代元素`for var in IterObject`，下标方式迭代`for i,value in enumerate(object)`  
 
 > #### 列表生成式
 
+   定义：运用列表生成式，可以快速生成list，可以通过一个list推导出另一个list，而代码却十分简洁。  
+   语法：如`newList = [x*x for x in oldList if x % 2 == 0]`解释为用oldList列表中偶数元素的平方生成一个新列表newList。  
+
 > #### 生成器
 
+   定义：在Python中，一边循环一边计算的机制，称为生成器：generator。  
+   原理：generator保存的是算法，每次调用next(g)，就计算出g的下一个元素的值，直到计算到最后一个元素，没有更多的元素时，抛出StopIteration的错误。  
+   创建方法：  
+       * 创建L和g的区别仅在于最外层的[]和()，L是一个list，而g是一个generator。  
+       * 用函数构建，内部使用`yield`关键字  
+   区别：  
+       * 空间区别：列表生成式，是一次性重建出所有元素，并开辟内存空间；生成器是按照某种算法推算出需要的元素，能够节省大量空间。      
+       * 函数区别：普通函数顺序执行，遇到`return`或最后一行语句返回。generator函数，每次调用`next()`时候执行，遇到`yield`语句返回,再执行时从上次返回的`yield`处继续执行。  
+   语法：`g = (x * x for x in range(10))`或者如下所示：  
+   ```python
+def fib(max):
+    n, a, b = 0, 0, 1
+    while n < max:
+        print(b)
+        a, b = b, a + b
+        n = n + 1
+    return 'done'
+```  
+       
 > #### 迭代器
+
+   定义：  
+     可以直接使用`for`循环的数据类型如下：  
+        * 集合数据类型：如`list  tuple  dict  set  str`  
+        * generator类型：包括生成器和带yield的generator function  
+     以上可以直接作用于`for`循环的对象统称为可迭代对象：`Iterable`  
+   判断：是否是`Iterable`对象，可以被`next()`函数调用并不断返回下一值得对象称为迭代器，可以用函数`isinstance(object,Iterable)`判断。  
+   转换：生成器都是`Iterator`对象，但`list、dict、str`虽然是`Iterable`，却不是`Iterator`，把`list、dict、str`等`Iterable`变成`Iterator`可以使用`iter()`函数。  
+   理解：为什么`list、dict、str`等数据类型不是`Iterator`？  
+        这是因为Python的Iterator对象表示的是一个数据流，Iterator对象可以被next()函数调用并不断返回下一个数据，直到没有数据时抛出StopIteration错误。可以把这个数据流看做是一个有序序列，但我们却不能提前知道序列的长度，只能不断通过next()函数实现按需计算下一个数据，所以Iterator的计算是惰性的，只有在需要返回下一个数据时它才会计算。Iterator甚至可以表示一个无限大的数据流，例如全体自然数。而使用list是永远不可能存储全体自然数的
 
 <h3 id='3'>3. Python编程思想</h3>
 
@@ -419,7 +461,7 @@ class MyTCPServer(TCPServer, ForkingMixIn):
 
    定义：Python的class中有很多特殊用途的函数，可以帮助我们定制类，如`__slots__`等形如`__xxx__`;   
     
-   函数|定义|语法
+   函数|定义|备注
    --|--|--
    `__str__`|返回字符串格式|返回用户看到的字符串格式
    `__repr__`|返回字符串格式|返回程序开发者看到的字符串格式
@@ -432,7 +474,66 @@ class MyTCPServer(TCPServer, ForkingMixIn):
 
 > #### 使用枚举类
 
+   定义：Python提供Enum可以把一组相关常量定义在一个class中，且class不可变，而且成员可以直接比较。  
+   场景：当我们需要定义常量时，传统办法是用大写变量通过整数来定义，例如年份、性别、省份，好处是简单，缺点是类型是int，并仍然是变量。  
+   更好的方法为这样的枚举类型定义一个class类型，每个常量都是class的一个唯一实例，Python提供了Enum类实现这个功能。  
+   
+   ```python
+from enum import Enum, unique
+@unique
+class Gender(Enum):
+    Male = 0
+    Female = 1
+
+class Student(object):
+    def __init__(self, name, gender):
+        self.name = name
+        self.gender = gender
+ # @unique装饰器可以帮助我们检查保证没有重复值。
+ # 既可以用成员名称引用枚举常量，又可以直接根据value的值获得枚举常量  
+```
+
 > #### 使用元类
+
+   定义：metaclass是Python中非常具有魔术性的对象，它可以改变类创建时的行为。  
+   场景：需要动态创建类时使用。如ORM就是一个典型例子。    
+   理解：先定义metaclass，就可以创建类，最后创建实例；metaclass允许你创建类或者修改类。换句话说，你可以把类看成是metaclass创建出来的“实例”。  
+   动态语言和静态语言最大区别：函数和类的定义，不是编译时定义，而是运行时动态创建。  
+   控制类的动态创建行为方法如下：  
+       * type()
+       * metaclass  
+   `type()`函数可以返回一个对象的类型，又可以创建出新的类型，如下：  
+   ```python
+def fn(self,strInfo='I am function'):
+    print('print information:{}'.format(strInfo))
+# 创建Info_cls class
+Info_cls = type('Info_cls', (object,), dict(infoprint=fn)) 
+# 创建class对象，type()函数依次传入3个参数
+# 1. class名称；
+# 2. 继承的父类集合，Python可继承多个父类
+# 3. class方法名与函数绑定 
+```
+
+   metaclass，直译为元类，解释为：当定义了类后可以根据类创建实例，连接起来是先定义metaclass，就创建类，最后创建实例。  
+   ```python
+# 普通list没有add()方法，我们用元类动态创建具有add()方法的定制list类
+# 定义一个list元类metaclass模板
+class ListMetaclass(type):
+    def __new__(cls, name, bases, attrs):
+        attrs['add'] = lambda self,value: self.append(value)
+        return type.__new__(cls, name, bases, attrs)
+# 定义我自己的list类，继承list和元类ListMetaclass
+class MyList(list, metaclass=ListMetaclass):
+    pass
+
+# 元类__new__()方法接收到的参数依次是：
+# 1. 当前准备创建类对象cls；
+# 2. 类名称name；
+# 3. 类继承的父类集合bases；
+# 4. 类的方法集合attrs；
+```
+
+> https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000  
 
 <h4 id='3.2'>3.2 函数式编程</h4>
 
