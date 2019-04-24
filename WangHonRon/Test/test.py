@@ -1,14 +1,14 @@
-class People():
-    name = 'jerry'  # 公有的类属性
-    __age = 18  # 私有的类属性
 
-    def __init__(self, name, age):
-        self.name = name  # 实例属性
-        self.__age = age  # 实例属性
+def gener_numlist(startnum,delta,num):
+    for i in range(num+1):
+        var = startnum+delta
+        print('{}-{}'.format(startnum,var))
+        startnum = var+1
+
+gener_numlist(1,33,48)
 
 
-p = People('tom',21)
-p.name  # tom
-People.name
 
-print(p.name,People.name)
+
+
+

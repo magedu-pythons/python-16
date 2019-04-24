@@ -207,8 +207,8 @@
    中|x|01001110 00101101|11100100 10111000 10101101
    
    **编码转换应用**  
-       * 用记事本编辑的时候，从文件读取的UTF-8字符被转换为Unicode字符到内存里，编辑完成后，保存的时候再把Unicode转换为UTF-8保存到文件。  
-       * 浏览网页的时候，服务器会把动态生成的Unicode内容转换为UTF-8再传输到浏览器
+   * 用记事本编辑的时候，从文件读取的UTF-8字符被转换为Unicode字符到内存里，编辑完成后，保存的时候再把Unicode转换为UTF-8保存到文件。  
+   * 浏览网页的时候，服务器会把动态生成的Unicode内容转换为UTF-8再传输到浏览器
    
 > 字符串问题
    
@@ -236,9 +236,9 @@ list和tuple是Python内置的有序集合，一个可变，一个不可变
 
 循环是让计算机做重复任务的有效的方法  
 
-break语句可以在循环过程中直接退出循环，而continue语句可以提前结束本轮循环，并直接开始下一轮循环。这两个语句通常都必须配合if语句使用。  
-
 Python的循环有两种，一种是for...in循环，依次把list或tuple中的每个元素迭代出来，第二种循环是while循环，只要条件满足，就不断循环，条件不满足时退出循环。  
+
+break语句可以在循环过程中直接退出循环，而continue语句可以提前结束本轮循环，并直接开始下一轮循环。这两个语句通常都必须配合if语句使用。  
 
 > #### 使用dict和set
 
@@ -386,7 +386,7 @@ class Student:
 
 在Python中，变量名以`__xxx__`双下划线开头和结尾命名的，是特殊变量，可以直接访问的，不是private变量
 
-> #### 集成和多态
+> #### 继承和多态
 
 > #### 获取对象信息
 
@@ -597,13 +597,145 @@ class MyList(list, metaclass=ListMetaclass):
 
 > #### 高阶函数
 
+> map/reduce
+
+Python内建了map()和reduce()函数，  
+
+map()函数用法，接收两个参数，一个是函数，一个是Iterable，map将传入的函数依次作用到序列的每个元素，并把结果作为新的Iterator返回。 
+ 
+```python
+def f(x):
+    return x * x
+
+r = map(f, [1, 2, 3, 4, 5, 6, 7, 8, 9])
+list(r) #[1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+# 以上代码等价如下
+rl = map(lambda x:x * x, [1, 2, 3, 4, 5, 6, 7, 8, 9])
+```
+
+reduce的用法。reduce把一个函数作用在一个序列[x1, x2, x3, ...]上，这个函数必须接收两个参数，reduce把结果继续和序列的下一个元素做累积计算
+
+```python
+from functools import reduce
+def fn(x, y):
+     return x * 10 + y
+
+reduce(fn, [1, 3, 5, 7, 9]) #13579
+
+#以上代码等价于
+reduce(lambda x,y: x * 10 + y, [1, 3, 5, 7, 9])
+```
+
+> filter
+
+Python内建的filter()函数用于过滤序列。  
+
+filter()也接收一个函数和一个序列，filter()把传入的函数依次作用于每个元素，然后根据返回值是True还是False决定保留还是丢弃该元素。  
+filter()的作用是从一个序列中筛出符合条件的元素。由于filter()使用了惰性计算，所以只有在取filter()结果的时候，才会真正筛选并每次返回下一个筛出的元素.    
+
+```python
+def is_odd(n):
+    return n % 2 == 1
+
+list(filter(is_odd, [1, 2, 4, 5, 6, 9, 10, 15]))# 结果: [1, 5, 9, 15]
+
+# 以上等价如下
+
+list(filter(lambda x: x%2==1, [1, 2, 4, 5, 6, 9, 10, 15]))# 结果: [1, 5, 9, 15]
+```
+
+> sorted
+
+sorted()也是一个高阶函数。用sorted()排序的关键在于实现一个映射函数。  
+
+sorted()函数也是一个高阶函数，它还可以接收一个key函数来实现自定义的排序。  
+
+```python
+sorted([36, 5, -12, 9, -21], key=abs) # 按绝对值排序[5, 9, -12, -21, 36]
+sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower) # 忽略大小写排序['about', 'bob', 'Credit', 'Zoo']
+sorted(['bob', 'about', 'Zoo', 'Credit'], key=str.lower, reverse=True) # 反向排序['Zoo', 'Credit', 'bob', 'about']
+```
+
 > #### 返回函数
+
+高阶函数除了可以接受函数作为参数外，还可以把函数作为结果值返回，一个函数可以返回一个计算结果，也可以返回一个函数。返回一个函数时，牢记该函数并未执行，返回函数中不要引用任何可能会变化的变量。  
+
+```python
+def lazy_sum(*args):
+    def sum():
+        ax = 0
+        for n in args:
+            ax = ax + n
+        return ax
+    return sum
+    
+fn = lazy_sum(1, 3, 5, 7, 9)
+print(fn) # <function lazy_sum.<locals>.sum at 0x101c6ed90>
+print(fn()) #25
+
+```
+
+> 闭包
+
+在函数`lazy_sum`中又定义了函数`sum`，并且，内部函数`sum`可以引用外部函数`lazy_sum`的参数和局部变量，当`lazy_sum`返回函数`sum`时，相关参数和变量都保存在返回的函数中，这种称为“闭包（Closure）”的程序结构拥有极大的威力.返回的函数并没有立刻执行，而是直到调用了`fn()`才执行。    
 
 > #### 匿名函数
 
+Python对匿名函数的支持有限，就是只能有一个表达式，不用写return，返回值就是该表达式的结果。  
+
+用匿名函数有个好处，因为函数没有名字，不必担心函数名冲突。此外，匿名函数也是一个函数对象，也可以把匿名函数赋值给一个变量，再利用变量来调用该函数。  
+
+同样，也可以把匿名函数作为返回值返回。  
+
+```python
+# 下面函数可以定义匿名函数：lambda x: x * x
+def fn(x):
+    return x * x
+print(fn) # <function <lambda> at 0x101c6ef28>
+
+# 如下匿名函数作为返回值
+def build(x, y):
+    return lambda: x * x + y * y
+```
+
 > #### 装饰器
 
+   定义：假设我们要增强now()函数的功能，比如，在函数调用前后自动打印日志，但又不希望修改now()函数的定义，这种在代码运行期间动态增加功能的方式，称之为“装饰器”（Decorator）。  
+   
+   本质：decorator就是一个返回函数的高阶函数
+   
+   ```python
+import datetime
+def log(func):
+    def wrapper(*args, **kw):
+        print('call %s():' % func.__name__)
+        return func(*args, **kw)
+    return wrapper
+    
+@log  # 等价于 now = log(now)
+def now():
+    print(datetime.datetime.now())
+```
+
 > #### 偏函数
+
+Python的`functools`模块提供了很多有用的功能，其中一个就是偏函数（Partial function）  
+
+定义：当函数的参数个数太多，需要简化时，使用`functools.partial`可以创建一个新的函数，这个新函数可以固定住原函数的部分参数，从而在调用时更简单。  
+
+```python
+import functools
+
+max2 = functools.partial(max, 10)
+max2(5, 6, 7) # 10
+
+# 相当于
+args = (10, 5, 6, 7)
+max(*args)
+
+```
+
 
 <h3 id='4'>4. Python系统编程</h3>
 
